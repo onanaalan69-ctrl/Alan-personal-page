@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--
+  =========================================================
+   MY PERSONAL PAGE  ·  ODSA 2026 · Programming Department
+  =========================================================
+   This page is YOURS. Here's the loop you'll live in today:
+
+     1. Change something in this file
+     2. Save it  (Ctrl+S  /  Cmd+S on Mac)
+     3. Refresh the browser
+     4. See your change. Repeat.
+
+   Everything you need to change is marked with ✏️ EDIT.
+   You cannot break anything that a Ctrl+Z can't fix. Go.
+  =========================================================
+-->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- ✏️ EDIT: this is the text on the browser tab. Put YOUR name. -->
+    <title>Onana Alan Christopher— ODSA 2026</title>
+
+    <style>
+        /* =============================================
+           🎨 THEME PANEL — the fun part.
+           Change ONE value, save, refresh. Whole new page.
+           ============================================= */
+        :root {
+            /* The main color of the page. Try one of these:
+               #e63946 (red)   #2a9d8f (teal)   #7b2cbf (purple)
+               #f77f00 (orange) #0077b6 (blue)  #16a34a (green) */
+            --accent: #d3ea6a;
+
+            --background: #086e50;
+            /* the page background */
+            --text: #ecefca;
+            /* the color of your words */
+
+            /* The shape of your photo:
+               50%  = circle
+               20px = squircle (rounded square)
+               0    = square  */
+            --photo-shape: 20px;
+        }
+
+        /* =============================================
+           Below here: the styles that shape the page.
+           Each rule has a note saying what it does.
+           Read them, poke them — but you don't HAVE to
+           touch anything below to finish today.
+           ============================================= */
+
+        /* The whole page: font, colors, one centered column.
+           "max-width" keeps lines short and easy to read;
+           "margin: 0 auto" centers the column on the screen. */
+        body {
+            font-family: Georgia, 'Times New Roman', serif;
+            background-color: var(--background);
+            color: var(--text);
+            max-width: 620px;
+            margin: 0 auto;
+            padding: 40px 20px;
+            line-height: 1.6;
+        }
+
+        /* Your photo. "border-radius" is what rounds the corners —
+           it reads its value from the THEME PANEL above. */
+        .profile-photo {
+            width: 150px;
+            height: 150px;
+            border-radius: var(--photo-shape);
+            object-fit: cover;
+            /* crops instead of squishing */
+            border: 2px solid var(--accent);
+            background-color: #e5e5e5;
+            /* shows as a gray box until your photo loads */
+        }
+
+        /* The top of the page, all centered. */
+        header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        /* Your name — the biggest text on the page. */
+        h1 {
+            font-size: 2.2rem;
+            margin: 15px 0 5px 0;
+        }
+
+        /* The short line under your name. */
+        .tagline {
+            color: #689850;
+            font-style: italic;
+            margin-top: 0;
+        }
+
+        /* Section titles, with a thin line underneath. */
+        h2 {
+            font-size: 1.3rem;
+            color: var(--accent);
+            border-bottom: 1px solid #e5e5e5;
+            padding-bottom: 6px;
+            margin-top: 45px;
+        }
+
+        /* All links share the accent color. */
+        a {
+            color: var(--accent);
+        }
+
+        /* A bit of breathing room between list items. */
+        li {
+            margin-bottom: 12px;
+        }
+
+        /* The contact list: no bullets, just clean lines. */
+        .contact-list {
+            list-style: none;
+            padding: 0;
+
+            /* 🧪 TRY THIS: remove the two lines of slashes below,
+               save, refresh — and watch the list lie down sideways.
+               That's "flexbox". We'll use it a LOT. */
+            display: flex;
+            gap: 16px;
+        }
+
+        /* The little sign-off at the bottom. */
+        footer {
+            text-align: center;
+            color: #6295b3;
+            font-size: 0.9rem;
+            margin-top: 60px;
+            border-top: 1px solid #e5e5e5;
+            padding-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- ============================================= -->
+    <!-- 1. PHOTO + NAME                               -->
+    <!--                                               -->
+    <!-- ✏️ EDIT: add your photo in 3 steps:           -->
+    <!--   a) Pick a photo of yourself                 -->
+    <!--   b) Rename the file to exactly:  photo.jpg   -->
+    <!--      ⚠️ check the ending! If your file is     -->
+    <!--      .png / .jpeg / .HEIC, either rename it   -->
+    <!--      or change "photo.jpg" below to match.    -->
+    <!--   c) Put it in the SAME FOLDER as this file   -->
+    <!--      (right next to index.html, not Downloads)-->
+    <!-- Until then, a gray box holds its place.       -->
+    <!-- ============================================= -->
+    <header>
+        <img src="Spiderman.jpg" alt="A photo of that represents me best" class="profile-photo">
+
+        <!-- ✏️ EDIT: your actual name goes here. -->
+        <h1>Onana Alan Christopher</h1>
+
+        <!-- ✏️ EDIT: one line about you.
+             e.g. "Future engineer from Bamenda 🇨🇲"  -->
+        <p class="tagline">Student at Open Dreams · Aspiring Mechantronics Engineer</p>
+        <p class="tagline">Member of the hack club</p>
+    </header>
+
+    <!-- ============================================= -->
+    <!-- 2. ABOUT ME                                   -->
+    <!-- ✏️ EDIT: 2–4 honest sentences about yourself. -->
+    <!-- Imagine an admission officer is reading this  -->
+    <!-- — but write like you talk. Where are you from?-->
+    <!-- What drives you? What are you proud of?       -->
+    <!-- ============================================= -->
+    <section>
+        <h2>Hello! 👋</h2>
+        <p>
+            I'm Alan and I'm a student at the Open Dreams Summer Academy.
+            I'm fascinated by embedded and automatic systems, coding, video games and sleeping (Yeah I do ;-) )
+        </p>
+        <p>
+            Right now I'm learning to build software — HTML, CSS, Git —
+            and this page is not the first thing I have ever built.
+            I'm in a project with three of my schoolmates to complete the school's website
+        </p>
+        <p>
+            Out of the academics, As a person, Alan is someone full of energy and has a great love for excellence. I
+            always try to bring joy to wherever I go and make the people there feel at ease with me. I am very sociable
+            and good at public speaking. I like reaching out to new people – taking initiatives – and make sure I don’t
+            “stay in my corner of the room”.
+        </p>
+    </section>
+
+    <!-- ============================================= -->
+    <!-- 3. WHERE I'VE STUDIED                         -->
+    <!-- ✏️ EDIT: your school(s), most recent first.   -->
+    <!-- Copy the <li> block to add another school.    -->
+    <!-- ============================================= -->
+    <section>
+        <h2>Where I've studied</h2>
+        <ul>
+            <li>
+                <strong>Tsimi Evouna Bilingual Institute</strong><br>
+                Secondary school and High School(F3 to USS)— graduating in 2027
+            </li>
+        </ul>
+        <ul>
+            <li>
+                <strong>St. Benedict Catholic Bilingual Institute </strong><br>
+                Secondary schoo(F1 and F2)— graduating in 2027
+                </li1>
+        </ul>
+    </section>
+
+    <!-- ============================================= -->
+    <!-- 4. WHEN I'M NOT STUDYING                      -->
+    <!-- ✏️ EDIT: your hobbies — real ones. Delete     -->
+    <!-- lines you don't need, copy a line to add more.-->
+    <!-- ============================================= -->
+    <section>
+        <h2>When I'm not studying</h2>
+        <ul>
+            <li>I'm watching YT or IG videos to get inspiration and motivation</li>
+            <li>I continue learnung Python and upgrading my skills in Arduino PL</li>
+            <li>I play video games with Fortnite being one of my best </li>
+            <li>I play football with my siblings</li>
+            <li>I read some books</li>
+        </ul>
+    </section>
+
+    <!-- ============================================= -->
+    <!-- 5. WHAT'S NEXT FOR ME                         -->
+    <!-- ✏️ EDIT: your ambitions. Dream field? Dream   -->
+    <!-- school? A problem you want to solve? Dream    -->
+    <!-- big — that's the point of this section.       -->
+    <!-- ============================================= -->
+    <section>
+        <h2>What's next for me</h2>
+        <p>
+            I intend to study <strong>Mechantronics</strong> —
+            At first i wanted to do ML engineering, but I discovered a new passion for automated systems and the field
+            of study
+            enabling me to express my ideas freely and pursuie this passion was Mechatronics engineering
+        </p>
+        <p>
+            By the end of this summer, I will have built and shipped
+            a real app of my own. After that? Watch this space.
+        </p>
+    </section>
+
+    <!-- ============================================= -->
+    <!-- 6. SAY HELLO                                  -->
+    <!-- ✏️ EDIT: put your real links in. Delete any   -->
+    <!-- line for a network you don't use. The text    -->
+    <!-- between the tags is what people SEE — the     -->
+    <!-- href="" part is where clicking takes them.    -->
+    <!-- ============================================= -->
+    <section>
+        <h2>Say hello</h2>
+        <p>The best way to reach me is by email — I read everything.</p>
+        <ul class="contact-list">
+            <li>📧 <a href="onanaalan7gmail.com">My Gmail</a></li>
+            <li>🐙 <a href="https://github.com/onanaalan69-ctrl">GitHub</a></li>
+            <li>💼 <a href="https://www.linkedin.com/in/Alan Christopher">LinkedIn</a></li>
+        </ul>
+    </section>
+
+    <footer>
+        <!-- ✏️ EDIT: sign your work. -->
+        <p>Made with care by Onana Alan Christopher at ODSA 2026 — thanks for stopping by 💙</p>
+    </footer>
+
+    <!--
+      =========================================================
+       🔒 A LITTLE SECRET — only if you've cleared every ✏️ EDIT
+      =========================================================
+       Below is a tiny piece of JavaScript — the language that
+       makes pages DO things. We'll learn it properly soon.
+       For a sneak preview: remove the arrow lines around the
+       <script> block ( the lines with just  <!-\-  and  -\->  ),
+       save, refresh… then CLICK YOUR NAME on the page. 🎨
+      =========================================================
+
+       -->
+    <script>
+        const myName = document.querySelector("h1");
+        myName.style.cursor = "pointer";
+        myName.title = "Click me!";
+        myName.addEventListener("click", function () {
+            // Pick a random color and make it the page's accent
+            const randomColor = "hsl(" + Math.floor(Math.random() * 360) + ", 70%, 45%)";
+            document.documentElement.style.setProperty("--accent", randomColor);
+        });
+    </script>
+
+
+</body>
+
+</html>
