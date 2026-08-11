@@ -40,6 +40,47 @@
       line-height: 1.6;
   }
 
+  .project_body {
+      background-color: black;
+      background-image: url('Miles.png');
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
+      color: gold;
+
+      .active {
+          border-bottom: solid red;
+          color: green;
+      }
+
+      h1,
+      h2,
+      h3 {
+          color: red;
+      }
+  }
+
+  .news_body {
+      background-color: antiquewhite;
+      color: black;
+
+      nav{
+        background-color: beige;
+      }
+
+      .active {
+          border-bottom: solid black;
+          color: black;
+      }
+
+      h1,
+      h2,
+      h3 {
+          color: black;
+          border-bottom: black;
+      }
+  }
 
   .profile-photo {
       width: 150px;
@@ -90,6 +131,18 @@
       padding: 0;
       display: flex;
       gap: 16px;
+  }
+
+  .project {
+      border: solid 1px red;
+      border-radius: 20px;
+      width: 343px;
+      height: 343px;
+      box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+  }
+
+  .project:hover img {
+      transform: scale(1.2);
   }
 
   footer {
