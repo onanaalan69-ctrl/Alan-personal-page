@@ -1,9 +1,12 @@
+const colorList = ['color1', 'color2', 'color3', 'color4', 'color5',];
+const magicButton = document.querySelector("#magicButton");
 
-        const myName = document.querySelector("h1");
-        myName.style.cursor = "pointer";
-        myName.title = "Click me!";
-        myName.addEventListener("click", function () {
-            // Pick a random color and make it the page's accent
-            const randomColor = "hsl(" + Math.floor(Math.random() * 360) + ", 70%, 45%)";
-            document.documentElement.style.setProperty("--accent", randomColor);
-        });
+magicButton.style.cursor = "pointer";
+magicButton.addEventListener("click", () => {
+    const colorOn = document.body.getAttribute('data-theme');
+    const colorOff = colorList.filter(theme => theme !== colorOn);
+    const randomColor = Math.floor(Math.random() * colorOff.length);
+    const nextColor = colorOff[randomColor];
+
+    document.body.setAttribute('data-theme', nextColor);
+});
