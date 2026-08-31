@@ -13,7 +13,7 @@
       --bgcolor: brown;
       --text: beige;
       --nav: beige;
-      --h1: rgb(255, 255, 106);
+      --h1: rgb(116, 116, 2);
   }
 
   [data-theme="color3"] {
@@ -35,6 +35,18 @@
       --text: #2C362B;
       --nav: #2C362B;
       --h1: #8FA882;
+  }
+
+
+  .index_photo {
+      border: 3px var(--text) solid;
+      border-radius: 25px;
+      width: 500px;
+      height: 500px;
+      margin: 0 auto;
+      position: fixed;
+      z-index: 999;
+      object-fit: cover;
   }
 
   body {
@@ -79,7 +91,7 @@
 
       nav {
           background-color: beige;
-          
+
           .active {
               border-bottom: solid black;
               color: black;
