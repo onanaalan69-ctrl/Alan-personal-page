@@ -1,15 +1,24 @@
-https://alan-personal-page.vercel.app
 
-> ### My personal page
->
-> I am an artefact!
->
->Here is a web site  I did to  discover me for the brave archeologists that pass by.
-> In this web site, you can know my identity - my name, my school, what I do during summer - my projects - which includes the ones I am building right now and what I did build - and weekly updates on what "I think". You can also find different ways to contact me, and follow my work out of hackclub.
-> 
-> I recently added a section that I named "facts" to show why I joined the hack club and how much I will enjoy participating to events organized here. Also added a button - click here button - to change the team of the page. 
->
-> The page is static and entirely made up of HTML and CSS with vanilla JavaScript to change the theme of the landing page. The site is made up of 3 pages linked together by a nav bar containing links to access them. It aslo includes a background image in the project section
-> The code was initially a template from a hack club admin at the summer academy, and was completely modified to suit my coding styles and habits.
->  You can click on the link above to navigate through the site with the included nav bar.
 
+My Personal Page
+=======================================================================================================================================
+Imagine that you could know someone just in one click? Well, you can know me by having a look inside this website.
+![GIF showing the site](url)
+> Test the site just [here](https://alan-personal-page.vercel.app)!
+
+---------------------------------------------------------------------------------------------------------------------------------------
+How to run the site
+=======================================================================================================================================
+Click on the link above. If you're running on a mobile device,  put your device orientation on  _landscape_ and your browser on _Desktop mode_ for an optimal experience.
+
+---------------------------------------------------------------------------------------------------------------------------------------
+Features
+=======================================================================================================================================
+- The home page has a button to click to change the color theme of the page,
+- The site features 4 sections: "Home", "Projects", "What's up" and "Facts" that help to know distinct sections of my life,
+- The site has link  to direct users to a way of communication such as an Email, LinkedIn and Github link
+
+---------------------------------------------------------------------------------------------------------------------------------------
+Credits
+=======================================================================================================================================
+- A great thanks to those who reviewed my work!
