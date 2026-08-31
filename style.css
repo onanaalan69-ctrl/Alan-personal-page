@@ -6,7 +6,7 @@
       --bgcolor: #086e50;
       --text: #d3ea6a;
       --nav: black;
-      --h1: #086e50;
+      --h1: #d3ea6a;
   }
 
   [data-theme="color2"] {
@@ -57,9 +57,13 @@
       background-attachment: fixed;
       color: gold;
 
-      .active {
-          border-bottom: solid red;
-          color: green;
+      nav {
+          background-color: black;
+
+          .active {
+              border-bottom: solid 2px red;
+              color: green;
+          }
       }
 
       h1,
@@ -75,11 +79,11 @@
 
       nav {
           background-color: beige;
-      }
-
-      .active {
-          border-bottom: solid black;
-          color: black;
+          
+          .active {
+              border-bottom: solid black;
+              color: black;
+          }
       }
 
       h1,
