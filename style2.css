@@ -21,6 +21,37 @@
     margin: 0 auto;
 }
 
+nav {
+    background-color: black;
+
+    .active {
+        border-bottom: solid 2px red;
+        color: green;
+    }
+}
+
+.nav_bar {
+    padding: 20px;
+    margin: 15px;
+    border: solid 1px var(--nav);
+    border-radius: 20px;
+    background-color: var(--nav);
+    display: flex;
+    justify-content: space-between;
+    z-index: 1000;
+    position: sticky;
+    top: 0;
+
+    a {
+        text-decoration: none;
+        color: var(--h1);
+    }
+
+    .active {
+        border-bottom: solid var(--h1);
+    }
+}
+
 .container {
     display: flex;
     justify-content: space-between;
