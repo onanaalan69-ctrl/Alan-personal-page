@@ -26,11 +26,12 @@
     justify-content: space-between;
     gap: 20px;
     text-align: center;
+    margin: 40px;
 }
 
 .container_text {
     color: #d3ea6a;
-    font-size: xx-large;
+    font-size: x-large;
     margin: 0 auto;
     font-size: 4rem;
 
