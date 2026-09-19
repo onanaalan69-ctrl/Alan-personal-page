@@ -16,6 +16,7 @@ Features
 =======================================================================================================================================
 - The home page has a button to click to change the color theme of the page,
 - The site features 4 sections: "Home", "Projects", "What's up" and "Facts" that help to know distinct sections of my life,
+- There is a page dedicated to know my preferences for deeper relations and connectivity
 - The text in the facts and whats'up page is updated every week to keep up with current information, 
 - The site has link  to direct users to a way of communication such as an Email, LinkedIn and Github link.
 
